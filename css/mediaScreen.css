@@ -1,0 +1,37 @@
+
+@media (max-width: 600px)
+{
+  body{
+    background-color: blueviolet !important;
+  }
+}
+
+@media (max-width: 520px)
+{
+  body{
+    background-color: rgb(208, 226, 43) !important;
+  }
+
+  .perfil{
+    margin-bottom: 233px;
+  }
+
+  .apresentacao{
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 768px)
+{
+    #sobre {
+        margin-top: 180px;
+
+    }
+}
+
+@media (max-width: 314)
+{
+    .perfil{
+        margin-bottom: 233px;
+      }
+}
