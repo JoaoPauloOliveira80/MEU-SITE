@@ -32,10 +32,15 @@ body{
     padding-bottom: 50px;
     text-align: center;
 }
+#home{
+    background-color: teal;
+    padding-bottom: 20vh;
+}
 .apresentacao{
-    background-color: aqua;
+    
     padding-top: 100px;
-    height: 600px;
+    height: auto;
+    padding-bottom: 30px;
     
 }
 
@@ -90,7 +95,7 @@ body{
 nav a:hover{
    border: none;
    color: red !important;
-   border-bottom: 3px solid red;
+   
    
   
 }
@@ -98,6 +103,7 @@ nav a:hover{
 .navbar{
     padding: 20px 1rem !important;
     height: auto;
+    margin-bottom: 10px;
 }
 nav a {
     color: white !important;
@@ -131,7 +137,7 @@ nav a {
 #sobre{
     background-color: #343a40;
     height: 600px;
-    transition: .5s;
+    
 }
 .link-sobre:hover{
    
@@ -153,3 +159,8 @@ nav a {
     transition: .15s;
 }
 
+/*tela de boa vida */
+.boa_vinda{
+    margin: 0 auto;
+    justify-content: center;
+}

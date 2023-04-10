@@ -3,6 +3,11 @@
 {
   body{
     background-color: blueviolet !important;
+    
+  }
+  .perfil{
+   
+    padding-bottom: 165px !important;
   }
 }
 
@@ -13,7 +18,8 @@
   }
 
   .perfil{
-    margin-bottom: 233px;
+   
+    padding-bottom: 250px !important;
   }
 
   .apresentacao{

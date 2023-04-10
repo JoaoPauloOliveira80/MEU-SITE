@@ -22,12 +22,13 @@ function mouseOver(){
     som.play()
   }else{
     som.pause()
-  }
+  } 
   
-  
-  
-  
-  
+}
+
+//Volta na url anterior
+function goback(){
+  window.history.back()
 }
 
 /* 
