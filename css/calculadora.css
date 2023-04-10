@@ -3,68 +3,63 @@
     padding: 0;
 }
 
-body{
-    background-color: aqua !important;
-   
-}
-
-.container{
-        margin-top: 50px;
-}
-.inicio{
-    text-align:left
-}
-.resultado{
+.fundo{
+    background-image: linear-gradient(45deg, rgb(127, 79, 190), rgb(79, 42, 165));
+    height: 100vh;
     color: white;
-    font-weight: 500;
-    padding-top: 30px;
-    background-color:#fff;
-    height: auto; 
-    padding-bottom: 15px;
-    font-size: 24px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
     
 }
-
-.result{
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 5px;
-    text-align: right;
-    padding: 0 5px;
-    margin: 5px;      
-    height: 30px;    
-    color: black;   
-}
-
-.display{
-    padding-top: 30px;   
-    background-color: rgb(253, 252, 253);
-    height: auto;
+.borda{
     border: 1px solid #ccc;
-    border-top: none;
+    padding: 15px;
     border-radius: 5px;
 }
-#calculadora{
+
+.borda h2{
+    color: black;
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.calculadora{
+    border: 1px solid #ccc;
+    position: absolute;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+}
+
+.botao:hover{
+    background-color: black;
+}
+
+#resultado{
+    width: 215px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding-right: 5px;
+
     
-    padding: 10px;
-    width: 300px;
-    height: 410px;
-    border-radius: 10px;
-    text-align: center;
-    background-color: #fff !important;
-}
-
-.quadrado{
-    margin: 5px;
-    width: 20%;
-    height: auto;
-}
-
-.key--equal{
-    margin: 5px;
-    width: 95%;
-    height: 100%;
-
 }
